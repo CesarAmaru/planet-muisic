@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planet Music</title>
+    <link rel="stylesheet" href="../styles/style-side-pags.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="sidebar close">
+        <header>
+            <div class="image-text">
+                <span class="image">
+                    <a href="../index.html"><img src="../img/logo.png" alt="Planet Music Logo"></a>
+                </span>
+                <div class="text header-text">
+                    <span class="name">Planet Music</span>
+                    <span class="profession">Loja Musical</span>
+                </div>
+            </div>
+            <i class='bx bx-chevron-right toggle'></i>
+        </header>
+        
+        <div class="menu-bar">
+            <div class="menu">
+                <li class="search-box">
+                    <i class='bx bx-search icon'></i>
+                        <input type="search" placeholder="Pesquisar">
+                        
+                </li>
+                <div class="menu-links">
+                    <li class="nav-link">
+                        <a href="mainpage.html">
+                            <i class='bx bx-home-alt icon' ></i>
+                            <span class="text nav-text">Dashboard</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-bar-chart-alt-2 icon' ></i>
+                            <span class="text nav-text">Revenue</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-bell icon' ></i>
+                            <span class="text nav-text">Notifications</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-pie-chart-alt icon' ></i>
+                            <span class="text nav-text">Analytcs</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-heart icon' ></i>
+                            <span class="text nav-text">Favorites</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-wallet icon' ></i>
+                            <span class="text nav-text">Wallet</span>
+                        </a>
+                    </li>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    <main>
+        <section id="sobre" class="sobre">
+            <div class="container">
+                <h2 class="section-title">Sobre a Planet Music</h2>
+                <div class="sobre-content">
+                    <div class="sobre-text">
+                        <h3>Nossa História</h3>
+                        <p>Desde 2004, a <strong>Planet Music</strong> tem sido o lar dos amantes de música em nossa cidade. Começamos como uma pequena loja familiar e hoje somos referência em instrumentos musicais de qualidade.</p>
+
+                        <h3>Nossa Missão</h3>
+                        <p>Proporcionar acesso à música para todos, oferecendo instrumentos de qualidade, atendimento personalizado e preços justos.</p>
+                        
+                        <h3>Nossos Diferenciais</h3>
+                        <ul>
+                            <li><i class="fas fa-check-circle"></i> Atendimento por profissionais experientes na área</li>
+                            <li><i class="fas fa-check-circle"></i> Garantia estendida em todos os produtos</li>
+                            <li><i class="fas fa-check-circle"></i> Área de teste para experimentar instrumentos</li>
+                        </ul>
+                    </div>
+                    <div class="sobre-images">
+                        <div class="image-container">
+                            <img src="https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae" alt="Interior da loja Planet Music com diversos instrumentos" class="zoom-image">
+                        </div>
+                        <div class="image-container">
+                            <img src="https://images.unsplash.com/photo-1470225620780-dba8ba36b745" alt="Atendimento personalizado na Planet Music" class="zoom-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="categorias" class="categorias">
+            <div class="container">
+                <h2 class="section-title">Nossas Categorias</h2>
+                <p class="section-description">Explore nossa variedade de instrumentos para todos os estilos e níveis</p>
+                
+                <div class="categorias-grid">
+                    <div class="categoria-card">
+                        <div class="categoria-icon">
+                            <i class="fas fa-guitar"></i>
+                        </div>
+                        <h3>Instrumentos de Cordas</h3>
+                        <p>Violões, guitarras, baixos, violinos e muito mais. Perfeitos para quem gosta de dedilhar ou usar arco.</p>
+                        <a href="#" class="btn-small">Ver Instrumentos</a>
+                    </div>
+                    
+                    <div class="categoria-card">
+                        <div class="categoria-icon">
+                            <i class="fas fa-drum"></i>
+                        </div>
+                        <h3>Instrumentos de Percussão</h3>
+                        <p>Baterias, cajons, pandeiros e outros instrumentos para marcar o ritmo da sua música.</p>
+                        <a href="#" class="btn-small">Ver Instrumentos</a>
+                    </div>
+                    
+                    <div class="categoria-card">
+                        <div class="categoria-icon">
+                            <i class="fas fa-wind"></i>
+                        </div>
+                        <h3>Instrumentos de Sopro</h3>
+                        <p>Flautas, saxofones, trompetes e outros instrumentos que dão vida à música através do sopro.</p>
+                        <a href="#" class="btn-small">Ver Instrumentos</a>
+                    </div>
+                    
+                    <div class="categoria-card">
+                        <div class="categoria-icon">
+                            <i class="fas fa-keyboard"></i>
+                        </div>
+                        <h3>Teclados e Pianos</h3>
+                        <p>Pianos digitais, teclados e sintetizadores para criar melodias incríveis com as teclas.</p>
+                        <a href="#" class="btn-small">Ver Instrumentos</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="destaque" class="destaque">
+            <div class="container">
+                <h2 class="section-title">Instrumentos em Destaque</h2>
+                <p class="section-description">Conheça nossos produtos mais procurados</p>
+                
+                <div class="carousel-container">
+                    <button class="carousel-btn prev-btn" aria-label="Produtos anteriores">❮</button>
+                    <div class="carousel-track-container">
+                        <ul class="carousel-track">
+                            <li class="carousel-slide">
+                                <div class="produto-card">
+                                    <div class="produto-image">
+                                        <img src="https://images.unsplash.com/photo-1550291652-6ea9114a47b1" alt="Violão acústico profissional">
+                                        <span class="promo-tag">Promoção</span>
+                                    </div>
+                                    <div class="produto-info">
+                                        <h3>Violão Acústico Profissional</h3>
+                                        <p>Violão com cordas de aço, tampo em cedro e acabamento brilhante.</p>
+                                        <span class="preco">R$ 1.299,00</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="carousel-slide">
+                                <div class="produto-card">
+                                    <div class="produto-image">
+                                        <img src="https://images.unsplash.com/photo-1543443258-92b04ad5ec6b" alt="Bateria Acústica Completa">
+                                    </div>
+                                    <div class="produto-info">
+                                        <h3>Bateria Acústica Completa</h3>
+                                        <p>Kit completo com caixa, tons, surdo, pratos e banco.</p>
+                                        <span class="preco">R$ 3.499,00</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="carousel-slide">
+                                <div class="produto-card">
+                                    <div class="produto-image">
+                                        <img src="https://images.unsplash.com/photo-1545167622-3a6ac756afa4" alt="Teclado Digital 88 Teclas">
+                                    </div>
+                                    <div class="produto-info">
+                                        <h3>Teclado Digital 88 Teclas</h3>
+                                        <p>Teclado com teclas sensitivas, 128 timbres e 100 ritmos.</p>
+                                        <span class="preco">R$ 2.199,00</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="carousel-slide">
+                                <div class="produto-card">
+                                    <div class="produto-image">
+                                        <img src="https://images.unsplash.com/photo-1564186763535-ebb21ef5277f" alt="Saxofone Alto">
+                                        <span class="promo-tag">Promoção</span>
+                                    </div>
+                                    <div class="produto-info">
+                                        <h3>Saxofone Alto</h3>
+                                        <p>Saxofone em Mib, acabamento laqueado dourado com estojo.</p>
+                                        <span class="preco">R$ 4.299,00</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="carousel-slide">
+                                <div class="produto-card">
+                                    <div class="produto-image">
+                                        <img src="https://images.unsplash.com/photo-1556449895-a33c9dba33dd" alt="Guitarra Elétrica Stratocaster">
+                                    </div>
+                                    <div class="produto-info">
+                                        <h3>Guitarra Elétrica Stratocaster</h3>
+                                        <p>Guitarra com 3 captadores single coil e tremolo.</p>
+                                        <span class="preco">R$ 2.799,00</span>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <button class="carousel-btn next-btn" aria-label="Próximos produtos">❯</button>
+                </div>
+                
+                <div class="carousel-nav">
+                    <button class="carousel-indicator active" data-slide="0" aria-label="Ir para slide 1"></button>
+                    <button class="carousel-indicator" data-slide="1" aria-label="Ir para slide 2"></button>
+                    <button class="carousel-indicator" data-slide="2" aria-label="Ir para slide 3"></button>
+        
+                </div>
+            </div>
+        </section>
+
+        
+
+
+        <section id="localizacao" class="localizacao">
+            <div class="container">
+                <h2 class="section-title">Onde Nos Encontrar</h2>
+                
+                <div class="localizacao-content">
+                    <div class="mapa">
+                        <div class="mapa-container">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3839.1317597859957!2d-47.9512949!3d-15.797005!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a314cf3d7f201%3A0xbccb01749eb2a090!2sPlanet%20Music%20DF!5e0!3m2!1spt-BR!2sbr!4v1749331661839!5m2!1spt-BR!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Localização da loja Planet Music"></iframe>
+                            <div class="map-pin">
+                                
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="info-localizacao">
+                        <div class="endereco">
+                            <h3><i class="fas fa-map-marked-alt"></i> Endereço</h3>
+                            <p>Planet Music - Feira dos Importados SIA Trecho 7 Conj. A Lojas 61, 63 e 64 </p>
+                            <p>Guará, Brasília - DF, 71200-070</p>
+                        </div>
+                        
+                        <div class="horarios">
+                            <h3><i class="far fa-clock"></i> Horário de Funcionamento</h3>
+                            <ul>
+                                <li><strong>Terça a Sexta:</strong> 9h às 18h</li>
+                                <li><strong>Sábados:</strong> 9h às 18h</li>
+                                <li><strong>Segundas, Domingos e Feriados:</strong> Fechado</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="contato-rapido">
+                            <h3><i class="fas fa-phone-alt"></i> Contato Rápido</h3>
+                            <p><strong>Telefone:</strong> (61) 99551-4228</p>
+                            <p><strong>WhatsApp:</strong> (61) 99551-4228</p>
+                            <p><strong>E-mail:</strong> planetmusic2005@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="contato">
+            <div class="container">
+                <h2 class="section-title">Entre em Contato</h2>
+                <p class="section-description">Envie sua mensagem, dúvida ou sugestão</p>
+                
+                <div class="contato-container">
+                    <form id="contato-form" class="contato-form" method="post">
+                        <div class="form-group">
+                            <label for="nome">Nome Completo</label>
+                            <input type="text" id="nome" name="nome" required aria-required="true">
+                            <span class="form-error">Por favor, informe seu nome</span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" name="email" required aria-required="true">
+                            <span class="form-error">Por favor, informe um e-mail válido</span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="telefone">Telefone</label>
+                            <input type="tel" id="telefone" name="telefone" placeholder="(00) 00000-0000">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="assunto">Assunto</label>
+                            <select id="assunto" name="assunto" required aria-required="true">
+                                <option value="">Selecione um assunto</option>
+                                <option value="duvida">Dúvida sobre produtos</option>
+                                <option value="orcamento">Solicitar orçamento</option>
+                                <option value="outro">Outro assunto</option>
+                            </select>
+                            <span class="form-error">Por favor, selecione um assunto</span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="mensagem">Mensagem</label>
+                            <textarea id="mensagem" name="mensagem" rows="5" required aria-required="true"></textarea>
+                            <span class="form-error">Por favor, escreva sua mensagem</span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-submit">Enviar Mensagem</button>
+                        </div>
+                    </form>
+                    
+                    <div class="contato-info">
+                        <h3>Por que entrar em contato?</h3>
+                        <ul>
+                            <li><i class="fas fa-check-circle"></i> Tire dúvidas sobre instrumentos</li>
+                            <li><i class="fas fa-check-circle"></i> Solicite orçamentos personalizados</li>
+                            <li><i class="fas fa-check-circle"></i> Agende manutenção para seu instrumento</li>
+                            <li><i class="fas fa-check-circle"></i> Dê sugestões ou faça reclamações</li>
+                        </ul>
+                        
+                        <div class="contato-social">
+                            <h3>Siga-nos nas redes sociais</h3>
+                            <div class="social-icons">
+                                <a href="#" aria-label="Instagram da Planet Music"><i class="fab fa-instagram"></i></a>
+
+                                <a href="#" aria-label="WhatsApp da Planet Music"><i class="fab fa-whatsapp"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="form-success-message">
+                    <i class="fas fa-check-circle"></i>
+                    <h3>Mensagem enviada com sucesso!</h3>
+                    <p>Agradecemos seu contato. Retornaremos em breve.</p>
+                    <button class="btn btn-close"> </button>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-logo">
+                        <h2>Planet Music</h2>
+                        <p>Sua loja de instrumentos musicais</p>
+                    </div>
+                    
+                    <div class="footer-links">
+                        <h3>Links Rápidos</h3>
+                        <ul>
+                            <li><a href="../index.html">Início</a></li>
+                            <li><a href="mainpage.html">Sobre Nós</a></li>
+                            <li><a href="#categorias">Instrumentos</a></li>
+                            <li><a href="#localizacao">Localização</a></li>
+                            <li><a href="#contato">Contato</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-contato">
+                        <h3>Contato</h3>
+                        <ul>
+                            <li><i class="fas fa-map-marker-alt"></i> Planet Music - Feira dos Importados SIA</li>
+                            <li><i class="fas fa-phone-alt"></i> (61) 99551-4228</li>
+                            <li><i class="fas fa-envelope"></i> planetmusic2005@gmail.com</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-newsletter">
+                        <h3>Receba Novidades</h3>
+                        <p>Cadastre-se para receber ofertas exclusivas e novidades</p>
+                        <form class="newsletter-form">
+                            <input type="email" placeholder="Seu e-mail" required aria-label="Seu e-mail para newsletter">
+                            <button type="submit" aria-label="Inscrever-se na newsletter">
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                
+                <div class="footer-bottom">
+                    <div class="copyright">
+                        <p>© 2005 Planet Music - Todos os direitos reservados</p>
+                    </div>
+                    
+                    <div class="footer-policies">
+                        <a href="#">Política de Privacidade</a>
+                        <a href="#">Termos de Uso</a>
+                        <a href="#">Política de Cookies</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <button id="back-to-top" aria-label="Voltar ao topo">
+            <i class="fas fa-chevron-up"></i>
+        </button>
+    </main>
+
+    <script src="../script-pags.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

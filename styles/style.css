@@ -55,7 +55,6 @@ body{
     font-weight: 500;
     font-size: 16px;
     transition: var(--tran-04)
-    wh
 
 }
 
@@ -174,8 +173,37 @@ main{
     background-color: #0362a1;
     margin-left: 88px;
     height: 100vh;
+    background-image: url(../img/musica-para-eternidade.jpg);
+    background-size: cover;
+    background-position: center;
 }
 main .main-div{
-    background-color: red;
+   display: flex;
     margin: 0px 15%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 20%;
+    gap: 10px;
+    background-color: #5f5f5f10;
+    padding: 10px;
+    max-height: 600px;
+    border-radius: 10px;
+}
+
+.main-div .saibamais{
+    text-decoration: none;
+    width: 200px;
+    height: 30px;
+    background-color: var(--azul-main);
+    text-align: center;
+    border-radius: 10px;
+    padding: 2px;
+    color: var(--cor-do-texto);
+
+}
+.saibamais:hover{
+    transform: scale(1.2);
+
 }
