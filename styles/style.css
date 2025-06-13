@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
 :root{
     /* CORES PADRÕES */
     --azul-main: rgb(6, 176, 228);
@@ -190,6 +194,11 @@ main .main-div{
     padding: 10px;
     max-height: 600px;
     border-radius: 10px;
+    & h1{
+        font-size: 5em;
+        color: var(--cor-texto-logo);
+        font-weight: 800;
+    }
 }
 
 .main-div .saibamais{
